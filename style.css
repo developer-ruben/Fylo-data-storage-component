@@ -153,10 +153,11 @@ body {
   color: var(--color-neutral-very-dark-blue);
 }
 
-.storage-component__space-left span {
+.storage-component__space-left-text {
   opacity: 0.5;
   font-size: 1.2rem;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .storage-component__space-left::after {
