@@ -9,6 +9,8 @@
   --color-neutral-grayish-blue: hsl(229, 7%, 55%);
   --color-neutral-dark-blue: hsl(228, 56%, 26%);
   --color-neutral-very-dark-blue: hsl(229, 57%, 11%);
+  --color-neutral-very-dark-blue-transparent: hsla(229, 57%, 11%, 0.5);
+
   --color-neutral-white: hsl(0, 0%, 100%);
   --font-family: "Raleway", sans-serif;
   --font-size: 1.4rem;
@@ -146,6 +148,7 @@ body {
   background-color: var(--color-neutral-white);
   border-radius: 1rem 1rem 0 1rem;
   font-size: 4rem;
+  line-height: 1;
   font-weight: 700;
   color: var(--color-neutral-very-dark-blue);
 }
@@ -182,7 +185,7 @@ body {
   align-items: center;
   width: 100%;
   height: 20px;
-  background-color: var(--color-neutral-very-dark-blue);
+  background-color: var(--color-neutral-very-dark-blue-transparent);
   border-radius: 1rem;
 }
 
