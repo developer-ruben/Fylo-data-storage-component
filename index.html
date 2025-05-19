@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="Fylo data storage component - Monitor your storage usage and remaining capacity in a sleek, responsive design."
+    />
+    <meta
+      name="keywords"
+      content="Fylo, data storage, storage component, responsive design, web challenge, Frontend Mentor"
+    />
+    <meta name="author" content="Ruben de Man" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="storage-component">
+        <div class="storage-component__left">
+          <img
+            class="storage-component__logo"
+            src="./assets/images/logo.svg"
+            width="135"
+            height="40"
+            alt="Fylo Logo"
+          />
+          <ul class="storage-component__list">
+            <li class="storage-component__item">
+              <a href="#" class="storage-component__link"
+                ><img
+                  class="storage-component__logo"
+                  src="./assets/images/icon-document.svg"
+                  width="24"
+                  height="20"
+                  alt="Document Icon"
+              /></a>
+            </li>
+            <li class="storage-component__item">
+              <a href="#" class="storage-component__link"
+                ><img
+                  class="storage-component__logo"
+                  src="./assets/images/icon-folder.svg"
+                  width="24"
+                  height="20"
+                  alt="Folder Icon"
+              /></a>
+            </li>
+            <li class="storage-component__item">
+              <a href="#" class="storage-component__link"
+                ><img
+                  class="storage-component__logo"
+                  src="./assets/images/icon-upload.svg"
+                  width="24"
+                  height="16"
+                  alt="Upload Icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="storage-component__right">
+          <div class="storage-component__popup">185 <span>GB Left</span></div>
+          <p class="storage-component__text">
+            You’ve used <strong>815 GB</strong> of your storage
+          </p>
+          <div class="progress">
+            <div class="progress__bar">
+              <div class="progress__progress"></div>
+            </div>
+            <div class="progress__numbers">
+              <span>0 GB </span>
+              <span>1000 GB</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          >Ruben de Man</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
